@@ -1,50 +1,113 @@
-<h1>標題<br>段落</h1>
-<h2>段落</h2>
-<h2 id="hh">Hi</h2>
-<h4>bonjour</h4>
-<h5>aloha</h5>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    /**{padding:0;
+      margin:0;
+    }*/
+    p{
+        color: white;
+        margin:0;
+        background-color:rgb(72, 142, 241);
+        padding:2rem;
+    }
 
-<div></div>
-<div></div>
-<style>
-  h1{
-  color:green; /*顏色*/
-  font-size: 1em: /*字體大小*/
-  litter-specing: 10px; /*字體間距*/
-  line-height: 2; /*行高 數字代表正常高的倍數*/
-  font-weight: 900; /*字體粗細 數字最大900*/
-  text-decoration:underline; /*底線 none把連結底線移除*/
-  font-style:italic;
-  opacity:0.5;
-  text-align: center;
-  font-family: arial, sans-serif:
-}
+    .flex{
+        background-color: lightskyblue;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+    }
 
-h2{
-  color:#e8b3ff;
-  color: hsl(282°, 100%, 85%);
-  color: rgb(232, 179, 255);
-  font-size: 30px;
-  font-size: 2em; /*em 與前者相較大小倍率*/
-  font-size: 50vw; /*螢幕的50%大小*/
-  font-size: 50%;  /*正常字體大小的50%*/
-}
-#hh{
-  color:geeen;
-}
-  
-  div{
-  width: 300px;
-  height: 300px;
-  background-color:pink;
-  background:linear-gradient(45deg,pink 20%,#f0ed90);
-  /*background-size:30px 30px;*/
-}
- div{
-  width: 600px;
-  height: 600px;
-  background-color:pink;             
-  background:linear-gradient(lightblue,transparent),url(https://scontent.xx.fbcdn.net/v/t1.15752-9/377610884_2712916158857046_6801258339404699439_n.jpg?stp=dst-jpg_p206x206&_nc_cat=102&ccb=1-7&_nc_sid=aee45a&_nc_ohc=9x3gVXDsD5gAX89k-mK&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdTpgL2FEoEnNsNY7KEDmw5-mUxRGNx4ZsRlSCfrrq1_Kw&oe=652BE4C6);background-size:60px 120px
-  /*background-size:cover;*/
-  /*background-size:contain;*/
-</style>
+    .flex>div {
+        background-color: rgb(244, 244, 228);
+        width: 100px;
+        height: 100px;
+        margin: 10px;
+    }
+    </style>
+</head>
+<body>
+
+    <div class="flex">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+
+    </div>
+    <h1>臺中市立西苑高級中學</h1>
+    <p><b>臺中市立西苑高級中學</b>，簡稱西苑高中，為位於臺灣臺中市西屯區逢甲商圈附近的一所市立完全中學，創校於1970年。設有國中部、高中部及國中補校。</p>
+    <h2>校史</h2>
+    <ul>
+        <li>1969年10月，籌備設校。</li>
+        <li>1970年7月16日，校舍動土開工。8月1日，「臺中市立第十三國民中學」創校，創校之初暫時借用臺中市西屯區西屯國民小學上課。11月16日遷入現址，由此校慶訂為每年11月16日。
+        </li>
+        <li>1971年7月1日，改名「臺中市立西苑國民中學」。
+        </li>
+        <li>1991年8月，開辦「附設國民中學補習學校」。
+        </li>
+        <li>1999年8月1日，增設高中部，改制為「臺中市立西苑中學」。
+        </li>
+        <li>2000年7月，設立國中部體育班。
+        </li>
+        <li>2001年2月1日，改名「臺中市立西苑高級中學」。8月1日，專科教室大樓（樸學樓）竣工。
+        </li>
+        <li>2004年8月，圖書館大樓竣工。
+        </li>
+    </ul>
+    <h2>校園環境</h2>
+    <ul>
+        <li>中正樓：三層樓建築。一樓為學校各個主要行政處室，二樓及三樓為國中部教室。
+</li>
+        <li>成功樓：三層樓建築。國中部教室。
+</li>
+        <li>力行樓：三層樓建築。國中部教室。
+</li>
+        <li>實踐樓：三層樓建築。高中部教室。國中科任導師辦公室和高中科任導師辦公室位於一樓和二樓。
+</li>
+        <li>樸學樓：六層樓建築（地上五層、地下一層）。地下一樓為音樂教室和、國中部音樂教室、表演藝術教室，一樓為國中的實驗室，二樓為高中的實驗室，三樓以上為國中部教室。
+</li>
+        <li>集合場：被中正、實踐、力行、樸學樓四樓圍繞。每周二、五（或特殊場合）早朝在此進行集會。每五年舉辦校慶園遊會。
+</li>
+        <li>運動場：位在樸學樓後方，提供學生下課放學後運動及體育課運動之需要。校內定期舉辦班際籃球和排球賽，每學年11月舉辦全校運動會。
+</li>
+        <li>中正堂（活動中心）：於學校側門旁，平時用於羽球隊練習或上體育課，學年末則在此舉行畢業典禮。
+</li>
+        <li>圖書館：六層樓建築。一樓及六樓為多功能教室，二三樓為圖書庫存區，四樓為試聽教室，五樓為電腦教室。
+</li>
+        <li>午餐廚房
+</li>
+    </ul>
+<h2>國中部學區</h2>
+<ul>
+    <li>全里：西平里、廣福里、鵬程里、港尾里
+    </li>
+    <li>西墩里（第1、2、4～10、17～21、24～27、30鄰）
+    </li>
+    <li>西安里（第1～12鄰、24鄰、29鄰）
+    </li>
+    <li>福安里（第1、2鄰）
+    </li>
+    <li>惠來里（第32鄰）
+    </li>
+    <li>永安里（第1～10、12、13、27鄰）
+    </li>
+    <li>港尾里（第13、16～26、28鄰為西苑高中、的共同學區）
+    </li>
+</ul>
+</body>
+</html>
